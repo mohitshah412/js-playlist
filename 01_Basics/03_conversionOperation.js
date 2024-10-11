@@ -66,7 +66,19 @@ let str3 = str1 + str2
 let gameCounter = 100
 // gameCounter++;
 gameCounter++; 
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // link to study 
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+let x = 3
+const y = x++  // return the value before incrementing OR 
+            //postfix operator increment the number after the expression evaluate
+
+console.log(`x:${x} , y:${y}`)
+
+let a = 3
+const b = ++a  // return the value after incrementing OR
+            // prifix operator increment the number before the expression evaluate
+
+console.log(`a:${a} , b:${b}`)
