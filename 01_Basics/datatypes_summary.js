@@ -19,13 +19,13 @@ const bigNumber = 3456543576654356754n
 
 // console.log(id === anotherId)
 
-console.table(typeof name)
-console.table(typeof scoreValue)
-console.table(typeof isLoggedIn)
-console.table(typeof outsideTemp)
-console.table(typeof userEmail)
-console.table(typeof id)
-console.table(typeof bigNumber)
+// console.table(typeof name);
+// console.table(typeof scoreValue);
+// console.table(typeof isLoggedIn);
+// console.table(typeof outsideTemp);
+// console.table(typeof userEmail);
+// console.table(typeof id);
+// console.table(typeof bigNumber);
 
 
 // 2. refernce (non primitive) : call by refernce means memory give refernce this datatype 
@@ -43,6 +43,31 @@ const myFunction = function(){
     console.log("hello");
 }
 
-console.log(typeof heros)
-console.log(typeof myObj)
-console.log(typeof myFunction)  // function object
+// console.log(typeof heros);
+// console.log(typeof myObj);
+// console.log(typeof myFunction);  // function object
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive)(copy in memory), heap (non primitive)(refrence in memory)
+
+let myYoutubename = "Hiteshchodharydotcom"
+
+let anothername = myYoutubename
+anothername = "Chaiaurcode"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = { 
+    email : "user@google.com" ,
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mohit@google.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
