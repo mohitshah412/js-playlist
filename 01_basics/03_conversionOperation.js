@@ -27,3 +27,5 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// conversion of object. conversion more clear work on forms, javascirpt project. browser mostly give you string value but sometime you have to convert it into boolean, sometime we have to convert it into a number, or an object convert, or an array convert. 
